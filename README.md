@@ -1,0 +1,1 @@
+# metamath-mode
