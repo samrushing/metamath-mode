@@ -18,6 +18,7 @@
     (modify-syntax-entry ?$ ". 13" metamath-mode-syntax-table)
     (modify-syntax-entry ?\( ". 2" metamath-mode-syntax-table)
     (modify-syntax-entry ?\) ". 4" metamath-mode-syntax-table)
+    (modify-syntax-entry ?\" "w" metamath-mode-syntax-table)
     metamath-mode-syntax-table)
   "Syntax table for metamath-mode")
 
