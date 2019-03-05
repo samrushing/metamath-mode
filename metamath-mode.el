@@ -11,7 +11,7 @@
 
 (defconst metamath-font-lock-keywords
   '(("\\(\\$[.={}acdefpv]\\)" . font-lock-builtin-face)
-    ("^[ ]*\\([^$][-._A-Za-z0-9]+\\) \\$[feap]" 1 font-lock-function-name-face)
+    ("^[ ]*\\([^$][-._A-Za-z0-9]+\\)[ \t]+\\$[feap]" 1 font-lock-function-name-face)
     ))
 
 (defvar metamath-mode-syntax-table
