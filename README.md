@@ -1,3 +1,3 @@
 # metamath-mode
 
-A simple [https://metamath.org/](metamath) mode for emacs.
+A simple [metamath](https://metamath.org/) mode for emacs.
